@@ -6,35 +6,46 @@
 		<link rel="stylesheet" href="styles/normalize.css">
 		<style>
 			body { 
-			    border: 3px dotted black; 
-			    margin: 10px;
+			    border: 3px dotted fuchsia;
+			    margin: 10px; /* all four sides */
+             /*   background-color: aqua; */
+				width:580px;
 			}
+            div {
+                background-color: aqua;
+				padding:  10px 20px 30px;
+				width: 540px;
+            }
 			main {
-			    border:  2px solid black;
-			    width:   500px;  
-			    margin:  20px;   /* all four sides */
+			    border:  2px solid blue;
+			    width:   500px; /* accounts for the width of the content only!!!*/
+			    /*margin:  20px;   !* all four sides *!*/
 			    padding: 10px;   /* all four sides */
-			}
+                background-color: yellow;
+            }
 			h1, p {
 			    border: 1px dashed black;
 			    padding: 10px;
 			}
 			h1 {
-			    margin:  .5em 0 .25em;  /* .5em top, 0 right and left, .25em bottom */
+			    margin:  0.5em 0 0.25em;  /* 0.5em top, 0 right and left, 0.25em bottom */
 			    padding-left: 15px;
 			}
 			p {
 			    margin: 0;       /* all four sides */
 			    padding-left: 15px;
+                /*width: 400px;*/
 			}
 		</style>
 	</head>
 
 	<body>
+    <div>
 		<main>
 			<h1>San Joaquin Valley Town Hall</h1>
 			<p>Welcome to San Joaquin Valley Town Hall.
 			We have some fascinating speakers for you this season!</p>
 		</main>
+    </div>
 	</body>
 </html>

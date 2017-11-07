@@ -5,21 +5,51 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="styles/normalize.css">
 		<style>
-			* { margin: .5em 1em; }
-			main { 
-    			border: 2px solid black; 
-    			padding: 1em; }
-    		h1 { font-family: Arial, sans-serif; }
-			p { margin-left: 3em; }
-    		#copyright { font-size: 80%; }
-			.blue { color: blue; }
-			.right { text-align: right; }
+			/* The asterisk can be used as a wildcard to represent all elements on a page (somethimes this is called
+			 a "reset selector" */
+			* {
+				margin: 0.5em 1em;
+			}
+			/* this rule set means that every main element
+                   will use these styles*/
+			main {
+				border: 2px solid black;
+				padding: 1em;
+			}
+			/*this will style all h1 elements on the page
+			  using this rule set*/
+			h1 {
+				font-family: Arial, sans-serif;
+			}
+			/*this will style all p elements*/
+			p {
+				margin-left: 3em;
+			}
+			/*the element that has a attributes of "copyright"
+			 will get this rule set*/
+			#copyright {
+				font-size: 80%;
+			}
+			/*this rule set will style all elements that have
+			 the attribute class= "blue"*/
+			.blue {
+				color: blue;
+			}
+			/*this rule set will style all elements that have
+         	  the attribute class= "right"*/
+			.right {
+				text-align: right;
+			}
+			.center
+			{
+				text-align: center;
+			}
 		</style>	
 	</head>
 	
 	<body>
 		<main>
-			<h1>This Season's Speaker Lineup</h1>
+			<h1 class="center">This Season's Speaker Lineup</h1>
 			<p class="blue">October: Jeffrey Toobin</p>
 			<p class="blue">November: Andrew Ross Sorkin</p>
 		</main>
