@@ -10,7 +10,7 @@ body {
 	background-color: white;
 	margin: 15px auto;
 	padding: 20px;
-/*	border: 1px solid black*/
+    /*border: 1px solid black*/
 }
 
 h2 { 
@@ -27,17 +27,22 @@ nav {
 	list-style: none;
 	margin-left: 1.25em;
 	margin-bottom: 1.5em; }
+
 #nav_menu_1 ul li { 
 	width: 200px;
-	margin-bottom: .5em;
+	margin-bottom: 0.5em;
 	border: 2px solid blue; }
+
 #nav_menu_1 ul li a {
 	display: block;
 	font-weight: bold;
 	color: blue;
 	text-decoration: none;
-	padding: .5em 0 .5em 1.5em; }
-#nav_menu_1 ul li a.current { background-color: silver; }
+	padding: 0.5em 0 0.5em 1.5em; }
+
+#nav_menu_1 ul li a.current {
+    background-color: silver;
+}
 
 /* the styles for the first horizontal navigation menu */
 #nav_menu_2 ul {
@@ -56,9 +61,7 @@ nav {
 #nav_menu_2 ul li a.current { text-decoration: none; }
 
 /* the styles for the second horizontal navigation menu */
-#nav_menu_3 ul {
-	list-style: none;
-}
+#nav_menu_3 ul {  list-style: none; }
 #nav_menu_3 ul li {
 	float: left;
 }
@@ -71,9 +74,9 @@ nav {
 	background-color: blue;
 	color: white;
 	font-weight: bold;
-	border-right: 2px solid white;
+	border-right: 2px solid fuchsia;
 }
 #nav_menu_3 ul li a.lastitem {
 	border-right: none;
-}	
+}
 #nav_menu_3 ul li a.current { color: yellow; }

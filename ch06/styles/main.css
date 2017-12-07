@@ -21,14 +21,14 @@ main h2 {
     font-size: 105%;
 	margin-top: .6em;
 	margin-bottom: 0;
-	position: relative;
+	/*position: relative;*/
 }
 main h3 {
 	font-size: 95%;
 	font-weight: normal;
 	margin-top: .3em;
 	margin-bottom: 0;
-	position: relative;
+	/*position: relative;*/
 }
 .title {
 	position: absolute;
