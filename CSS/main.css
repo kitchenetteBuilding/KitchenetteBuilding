@@ -83,3 +83,8 @@ p{
 strong {
     font-weight: bolder;
 }
+
+p.bold
+{
+    font-size: 200% ;
+}
