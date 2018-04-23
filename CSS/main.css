@@ -133,7 +133,21 @@ p.bold
 }
 
 p.source {
-    margin-top: 3em;
-    font-size: 90%;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
 }
+div.source2 {
+    text-align: left;
+    text-indent: 5em;
+    margin-left: 100px;
+    margin-right: 100px;
 
+}
+p.intro {
+    text-align: left;
+    text-indent: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
